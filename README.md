@@ -1,2 +1,2 @@
-# landing-page utilizando solo html5
-# Para iniciar el proyecto, ejecutar el archivo index.html
+# Readme 
+Landing page using only html5, to start the project, run the index.html file in live server.
