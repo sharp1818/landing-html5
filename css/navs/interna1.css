@@ -1,118 +1,218 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.nav-bar{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,79,79,1) 100%, rgba(0,212,255,1) 100%);
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    top:0px;
-    z-index: 100;
+.nav-bar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(219, 79, 79, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 100;
 }
-.head{
-    padding: 10px 0px 10px 0px;
-    background-color: #d91023;
+.head {
+  padding: 10px 0px 10px 0px;
+  background-color: #d91023;
 }
-.title{
-    text-align: center;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+.title {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
-.navs{
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 24px 24px 24px 24px;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.navs {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 24px 24px 24px 24px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.nav{
-    font-size: 16px;
-    color: black;
-    background-color: rgb(247, 152, 152);
-    padding: 2px 10px 2px 10px;
-    border-radius: 4px;
-    text-decoration: none;
+.nav {
+  font-size: 16px;
+  color: black;
+  background-color: rgb(247, 152, 152);
+  padding: 2px 10px 2px 10px;
+  border-radius: 4px;
+  text-decoration: none;
 }
-.nav:hover{
-    color: white;
-    background-color: rgb(253, 115, 115);
-    padding: 2px 10px 2px 10px;
-    border-radius: 4px;
+.nav:hover {
+  color: white;
+  background-color: rgb(253, 115, 115);
+  padding: 2px 10px 2px 10px;
+  border-radius: 4px;
 }
-.content{
-    background-color: #d91023;
-    display: flex;
-    flex-direction: column;
-    margin: auto 10px;
+.content {
+  background-color: hsl(46, 100%, 67%);
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
 }
-.footer-layout{
-    margin-top: 10px;
-    padding: 26px 0px 20px 0px;
-    border-radius: 100px 100px 0px 0px;
-    background-color: #d91023;
+.box1 {
+  background-color: rgb(255, 219, 119);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.images-layout{
-    text-align: center;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.box1-title {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
 }
-.beca-icon{
-    height: 44px;
-    border-radius: 5px;
-    background-color: white;
+.box1-href {
+  color: white;
+  background-color: orange;
+  width: 40%;
+  text-align: center;
+  padding: 6px;
+  border-radius: 4px;
 }
-.footer-items{
-    margin-top: 20px;
-    background-color: rgb(247, 152, 152);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.box1-href:hover {
+  background-color: red;
 }
-.footer-item{
-    padding: 20px 10px 10px 10px;
-    border-radius: 4px 0px 4px 0px;
-    font-size: 14px;
-    text-align: center;
-    color: black;
+.box1-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.item-title{
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
+.box1 div a {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
 }
-.item-subtitle{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0px 10px 0px;
-    font-size: 12px;
-    line-height: 20px;
-    color: black;
+.box1 div img {
+  width: 50%;
 }
-.information{
-    text-decoration: none;
-    color: black;
+.box2 {
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.information:hover{
-    color: blue;
+.box2-title {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
 }
-.item-contacto:hover{
-    color:blue;
+.cursos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
-.end-title{
-    padding-top: 20px;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    color: white;
+.cursos a {
+  text-decoration: none;
+  color: white;
+}
+.box2-cursos {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  animation: meneo 8s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes meneo {
+  0% {
+    background: red;
+    left: 25%;
+    top: 0px;
+  }
+  25% {
+    background: yellow;
+    left: 50%;
+    top: 0px;
+  }
+  50% {
+    background: blue;
+    left: 50%;
+    top: -400px;
+  }
+  75% {
+    background: green;
+    left: 0px;
+    top: -400px;
+  }
+  100% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.footer-layout {
+  margin-top: 10px;
+  padding: 26px 0px 20px 0px;
+  border-radius: 100px 100px 0px 0px;
+  background-color: #d91023;
+}
+.images-layout {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.beca-icon {
+  height: 44px;
+  border-radius: 5px;
+  background-color: white;
+}
+.footer-items {
+  margin-top: 20px;
+  background-color: rgb(247, 152, 152);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-item {
+  padding: 20px 10px 10px 10px;
+  border-radius: 4px 0px 4px 0px;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+.item-title {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.item-subtitle {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 10px 0px;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+}
+.information {
+  text-decoration: none;
+  color: black;
+}
+.information:hover {
+  color: blue;
+}
+.item-contacto:hover {
+  color: blue;
+}
+.end-title {
+  padding-top: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
